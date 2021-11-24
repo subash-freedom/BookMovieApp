@@ -1,0 +1,19 @@
+.logo {
+    background-color: #ff7f7f;
+    margin-right: auto;
+    animation: rotate-logo infinite 8s linear;
+    height: 35px;
+}
+
+@keyframes rotate-logo {
+    from {
+        transform: scaleX(-1);
+    }
+}
+
+.header {
+    background-color: #222;
+    height: 36px;
+    padding: 8px 32px 8px 16px;
+    display: flex;
+}
